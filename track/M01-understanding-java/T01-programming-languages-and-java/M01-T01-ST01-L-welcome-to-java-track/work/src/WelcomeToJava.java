@@ -4,6 +4,7 @@ public class WelcomeToJava {
         System.out.println("hello my name is Aman Chauhan");
         System.out.println("i am here to become java developer");
         System.out.println("i want to build an large applications");
+        System.out.println("new day new problem new code");
 
     }
 }
