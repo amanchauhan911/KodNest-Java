@@ -1,4 +1,5 @@
 public class prg5{
+    //nested while loop program
     public static void main(String[] args) {
         int i=1;
         while(i<=5){

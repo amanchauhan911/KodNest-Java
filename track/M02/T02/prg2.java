@@ -1,4 +1,5 @@
 public class prg2{
+    //this is basic syntax and working of while loop
     public static void main(String[] args){
         int i=1;
         while(i<=5){
