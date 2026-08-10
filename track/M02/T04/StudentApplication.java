@@ -11,6 +11,16 @@ class StudentApplication{
         s1.sleeping();
         s1.cheating();
         s1.running();
+        Student s2=new Student();
+        s2.age=12;
+        s2.hight=5.0;
+        s2.name="Max";
+        System.out.println(s2.age);
+        System.out.println(s2.name);
+        System.out.println(s2.hight);
+        s2.running();
+        s2.cheating();
+        s2.sleeping();
     
 
     }
