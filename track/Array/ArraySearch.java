@@ -7,11 +7,9 @@ class ArraySearch {
             found = true;
             break;
         }
-        if(found=false){
+     }
+     if(found==false){
             System.out.println("Did not found the element....");
         }
-     }
     }
-        
-    
 }
