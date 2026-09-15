@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class Prg2 {
+    //program to count vowels in string
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String text = sc.nextLine();
