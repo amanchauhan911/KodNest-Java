@@ -12,5 +12,10 @@ public class main {
 
         // 3. Call the subclass's own method
         myDog.bark();
+
+        Monkey m1 = new Monkey();
+        Tiger t1= new Tiger();
+        m1.eat();
+        t1.eat();
     }
 }

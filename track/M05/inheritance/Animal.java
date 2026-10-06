@@ -4,7 +4,7 @@ class Animal {
     String name;
 
     // Method in the parent class
-    public void eat() {
+    void eat() {
         System.out.println(name + " is eating.");
     }
 }
@@ -14,6 +14,20 @@ class Dog extends Animal {
     // Unique method belonging only to the child class
     public void bark() {
         System.out.println(name + " is barking.");
+    }
+}
+
+class Monkey extends Animal{
+    @Override 
+     void eat(){
+        System.out.println("i will steal and eat !!");
+    }
+}
+
+class Tiger extends Animal{
+    @Override
+    void eat(){
+        System.out.println("i will hunt and eat !!!");
     }
 }
 
