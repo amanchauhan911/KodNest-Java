@@ -17,3 +17,24 @@ class Cat extends Animal{
         System.out.println("Cat meow : MEOW!!");
     }
 }
+
+class Reptile extends Animal{
+    @Override 
+    void makesound(){
+        System.out.println("I am a reptile ");
+    }
+}
+
+class Snake extends Reptile{
+    @Override 
+    void makesound(){
+        System.out.println("Snake : SHEEEE!!");
+    }
+}
+
+class Lizerd extends Reptile{
+    @Override 
+    void makesound(){
+        System.out.println("Lizerd : PHISSS!!");
+    }
+}
