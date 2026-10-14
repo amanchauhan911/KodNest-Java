@@ -1,4 +1,3 @@
-import java.util.Scanner;
 
 class Book {
     int bookId;
@@ -16,20 +15,3 @@ class Book {
     }
 }
 
-public class Main {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int firstId = scanner.nextInt();
-        int secondId = scanner.nextInt();
-        scanner.close();
-
-        Book b1 = new Book(firstId);
-        Book b2 = new Book(secondId);
-
-        if (b1.equals(b2)) {
-            System.out.println("Equal");
-        } else {
-            System.out.println("Not Equal");
-        }
-    }
-}
