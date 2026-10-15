@@ -14,7 +14,7 @@ class Course {
     }
 }
 
-public class Main {
+public class bank2{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
